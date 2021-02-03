@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.wrapper {
+  display: flex;
+}
+.wrapper .main_content {
+  width: 100%;
+}
+
+.wrapper .main_content .header {
+  padding: 10px;
+  background: #fff;
+  color: #000000;
+  border-bottom: 2px solid #f9a3cb;
+  display: flex;
+  background-color: #f0f2f5;
+}
+
+.wrapper .main_content .header > div {
+  margin: 10px;
+}
+
+.wrapper .main_content .header .number_hours {
+  display: flex;
+  flex-flow: column;
+  padding: 8px;
+  margin-bottom: 7px;
+}
+
+.wrapper .main_content .header .number_hours #number {
+  color: #f9a3cb;
+  outline: none;
+  background-color: #f0f2f5;
+  border: 0px solid;
+  margin-top: 10px;
+}
+.wrapper .main_content .header .number_hours #number a {
+  color: inherit;
+  font-size: 15;
+}
+
+.wrapper .main_content .header .cal_button {
+  border-radius: 350px 350px 350px 350px;
+  padding: 5px 30px 5px 30px;
+  background-color: #2b2b2b;
+}
+.wrapper .main_content .header .cal_button #req-call {
+  border: none;
+  left: 50%;
+  top: 50%;
+  margin-top: 20%;
+}
+
+.wrapper .main_content .header .cal_button #req-call a {
+  background-color: #2b2b2b;
+  color: #f9a3cb;
+  font-size: medium;
+}
+
+.wrapper .main_content .tabs ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #f9a3cb;
+  padding: 5px;
+  color: #f9a3cb;
+  color: inherit;
+}
+
+.wrapper .main_content .tabs ul li a {
+  color: #f9a3cb;
+}
+
+.wrapper .main_content .tabs ul li:hover {
+  background-color: #000000;
+  color: #f9a3cb;
+  padding: 4px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.wrapper .main_content .main_info {
+}
+
+.wrapper .main_content .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #009879;
+}
+
+.items {
+  margin: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.items .item1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 15%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.items .item1 img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.items .item1 .shop_now {
+  padding: 2x 16px;
+  align-content: center;
+  justify-content: center;
+}
