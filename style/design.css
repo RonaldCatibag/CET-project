@@ -17,6 +17,7 @@
 }
 
 .wrapper .main_content .header {
+  display: flex;
   padding: 10px;
   background: #fff;
   color: #000000;
@@ -32,8 +33,8 @@
 .wrapper .main_content .header .number_hours {
   display: flex;
   flex-flow: column;
-  padding: 8px;
-  margin-bottom: 7px;
+  padding: 3px;
+  margin-bottom: 2px;
 }
 
 .wrapper .main_content .header .number_hours #number {
@@ -65,7 +66,32 @@
   color: #f9a3cb;
   font-size: medium;
 }
+.wrapper .main_content .header .social_media {
+  margin-left: 30%;
+}
+.fa {
+  padding: 7px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  font-size: 35px;
+  text-align: center;
+}
+.fa-color {
+  color: #f9a3cb;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-facebook {
+  text-shadow: 0 0 11px #000;
+}
 
+.wrapper .main_content .tabs {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
 .wrapper .main_content .tabs ul {
   display: flex;
   flex-flow: row;
@@ -81,14 +107,11 @@
   color: #f9a3cb;
 }
 
-.wrapper .main_content .tabs ul li:hover {
-  background-color: #000000;
-  color: #f9a3cb;
-  padding: 4px;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.wrapper .main_content .main_info {
+.wrapper .main_content .main_info .about_product {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .wrapper .main_content .footer {
