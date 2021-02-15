@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -140,7 +141,7 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  flex-basis: 25.1%;
+  flex-basis: 25.333%;
   margin: 25px;
   text-align: center;
 }
@@ -166,6 +167,7 @@
   justify-content: center;
   align-items: center;
   display: none;
+  cursor: context-menu;
 }
 
 .bg-modal1 {
@@ -229,67 +231,158 @@
 }
 
 .modal-content {
-  width: 500px;
-  height: 300px;
-  background-color: white;
+  width: 800px;
+  height: 600px;  
   border-radius: 4px;
   text-align: center;
   padding: 50px;
   position: relative;
+  border: 0px;
+}
+
+.popup-img {
+  margin: 0px;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+
+.popup-buy {
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 25px;
+}
+
+h4 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.buy-now {
+  font-size: 25px;
+  border: 2px solid #ff8c00;
+  color: black;
+  width: 270px;
+  padding: .5rem 2rem .5rem;
+  transition: all .3s ease;
+  cursor: pointer;
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.add-cart {
+  font-size: 25px;
+  border: 2px solid #ff8c00;
+  color: black;
+  width: 270px;
+  padding: .5rem 2rem;
+  transition: all .3s ease;
+  cursor: pointer;
+  position: absolute;
+  bottom: 120px;
+  right: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+
+button:hover {
+  background-color: #ff8c00;
+
+}
+
+.description {
+  position: absolute;
+  top: 100px;
+  right: 70px;
+}
+
+.product-name{
+  font-size: 40px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+  font-size: 35px;
+  position: relative;
+  top: 40px;
+  right: 60px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .close {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 .close1 {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 .close2 {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 .close3 {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 .close4 {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 .close5 {
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 14px;
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+  color: black;
 }
 
 
