@@ -729,6 +729,31 @@ button:hover {
   color: black;
 }
 
+
+.payment-wrapper .payment-header a {
+  font-size: 30px;
+}
+.payment-wrapper .payment-header .button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: black;
+  padding: 15px 5px 15px 5px;
+  background-color: transparent;
+  margin: 4% 7% 0 7%;
+}
+
+.payment-wrapper .payment-header {
+  border-bottom: solid 1px #000000;
+  background-color: antiquewhite;
+}
+
+.payment-wrapper .payment-content {
+  margin: 0 7% 0 7%;
+}
+=======
 .shorts-close6 {
   position: absolute;
   top: 10px;
@@ -770,3 +795,4 @@ button:hover {
 }
 
 /* shorts */
+
