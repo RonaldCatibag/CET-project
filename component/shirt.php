@@ -65,6 +65,7 @@
     </div>
 
     <!-- MODALS -->
+
     <div class="bg-modal">
         <div class="modal-content">
        
@@ -92,7 +93,6 @@
                 </div>
 
             </div>
-
 
         </div>
 
@@ -125,7 +125,6 @@
                 </div>
 
             </div>
-
 
         </div>
 
@@ -263,7 +262,7 @@
 
     </div>
 
-    <script src="../resources/script.js"></script>
+    <script src="../resources/shirts-script.js"></script>
 
 
 </body>
