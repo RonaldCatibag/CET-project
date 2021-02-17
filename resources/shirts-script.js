@@ -1,6 +1,12 @@
+//SHIRTS
 document.getElementById('button').addEventListener('click', 
     function() {
         document.querySelector('.bg-modal').style.display = 'flex';
+    });
+
+document.querySelector('.close').addEventListener('click',
+    function() {
+        document.querySelector('.bg-modal').style.display = 'none';
     });
 
 document.getElementById('button1').addEventListener('click', 
@@ -27,7 +33,6 @@ document.getElementById('button5').addEventListener('click',
     function() {
         document.querySelector('.bg-modal5').style.display = 'flex';
     });
-
 
 document.querySelector('.close').addEventListener('click',
     function() {
@@ -58,6 +63,13 @@ document.querySelector('.close5').addEventListener('click',
     function() {
         document.querySelector('.bg-modal5').style.display = 'none';
     });
+//SHIRTS
+
+//MUGS
+
+
+
+//MUGS
 
 
 
