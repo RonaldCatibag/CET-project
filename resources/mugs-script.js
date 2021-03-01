@@ -38,6 +38,11 @@ document.getElementById('mugs-button8').addEventListener('click',
         document.querySelector('.mugs-bg-modal8').style.display = 'flex';
     });
 
+document.getElementById('mugs-button9').addEventListener('click', 
+    function() {
+        document.querySelector('.mugs-bg-modal9').style.display = 'flex';
+    });
+
 document.querySelector('.mugs-close1').addEventListener('click',
     function() {
         document.querySelector('.mugs-bg-modal1').style.display = 'none';
@@ -76,4 +81,9 @@ document.querySelector('.mugs-close7').addEventListener('click',
 document.querySelector('.mugs-close8').addEventListener('click',
     function() {
         document.querySelector('.mugs-bg-modal8').style.display = 'none';
+    });
+
+document.querySelector('.mugs-close9').addEventListener('click',
+    function() {
+        document.querySelector('.mugs-bg-modal9').style.display = 'none';
     });
